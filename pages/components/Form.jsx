@@ -1,9 +1,9 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 import Formcss from '../../styles/Form.module.css'
 import {v4 as uuidv4} from 'uuid'
 
 
-export default function form(props) {
+export default function Form(props) {
 
   const [input, setInput] = useState('')
 
