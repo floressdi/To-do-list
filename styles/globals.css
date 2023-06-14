@@ -16,12 +16,33 @@
   }
 }
 
+.formcontainer{
+  background-color: rgb(230, 230, 230, 0.70);
+  backdrop-filter: blur(10px);
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgb(230, 230, 230);
+}
+
+/* Estilos del contenedor tarea */
+
+.contenedortarea{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 1em;
+  padding: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contenedortarea.completada{
+      background-color: orange;
+      text-decoration: line-through;
 }
